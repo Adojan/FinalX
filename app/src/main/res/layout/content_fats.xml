@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Fats"
+    android:background="#FC55069E"
+
+    tools:showIn="@layout/app_bar_fats">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fats are organic molecules made up of carbon and hydrogen elements joined together in long chains called hydrocarbons. These molecules can be constructed in different ways, which creates different types of fat and their unique properties. The molecular configuration also determines whether fats will be healthy or unhealthy.
+Saturated fats contain no double bonds. Each carbon (C) has two hydrogens (H). The chain is “saturated” with hydrogens. Because of this chemical configuration, saturated fats are generally solid at room temperature.
+
+Unsaturated fats, on the other hand, have one or more double bonds between the carbons. Thus not all of the carbons have hydrogens stuck to them. This puts a “kink” in the chain.
+
+Monounsaturated fats have one double bond and polyunsaturated fats have more than one.
+
+These molecular shapes of various fats are important, because the shapes determine how the various fats act in the body."
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

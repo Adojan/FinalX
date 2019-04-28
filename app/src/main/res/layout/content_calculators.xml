@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Calculators"
+    android:background="#FC55069E"
+
+
+    tools:showIn="@layout/app_bar_calculators">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="659dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/Calories"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:text="BMR" />
+
+        <Button
+            android:id="@+id/XXX"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:text="TDEE" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

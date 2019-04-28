@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Eating"
+    android:background="#FC55069E"
+
+    tools:showIn="@layout/app_bar_eating">
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="659dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageButton
+            android:id="@+id/Bulking"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/bulking" />
+
+        <ImageButton
+            android:id="@+id/Proteins"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/proteins" />
+
+        <ImageButton
+            android:id="@+id/Carbs"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            app:srcCompat="@drawable/carbs" />
+
+        <ImageButton
+            android:id="@+id/Fats"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/fatt" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

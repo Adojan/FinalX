@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Bulking"
+    android:background="#FC55069E"
+
+    tools:showIn="@layout/app_bar_bulking">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Top 10 Rules Of Successful Clean Bulking"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 1 : Unless you are carrying a large amount of fat or you are just starting to weight train you are not going to lose fat while trying to gain muscle. If your primary goal is to gain muscle then focus on that."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Rule 2 : To keep your gains lean you want to gain at a rate of about 0.5-1 pound per week. If you don't track your progress then you won't know if you aren't gaining at all or if you are gaining too fast and adding unnecessary body fat."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="357dp" />
+
+                <TextView
+                    android:id="@+id/Rule3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 3 : You will most likely gain some fat when bulking. In order to gain muscle you have to eat more calories than you burn and doing so can lead to some fat gain. Some people try to stay shredded while gaining muscle by either not eating enough calories or doing too much cardio. Doing so may allow them to stay super lean but they won't be gaining much muscle. At the other end of the spectrum some people eat everything in sight to get as many calories as they can. This strategy will definitely lead to weight gain, but a lot of that weight will be fat and not muscle. The best approach is to eat sufficient calories to gain muscle but don't get crazy with your eating and still doing some cardio to maintain cardiovascular health."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 4 : I recommend doing 2-3, 20-30 minute sessions of cardio each week while bulking (ideally on a non-weight training day) to maintain cardiovascular health and keep you fit. Cardiovascular training improves the heart's ability to pump blood and increases oxygen uptake into cells. Strenuous weight training can be aerobically taxing and therefore having an efficient, strong heart will allow you to train harder. In addition, a fit person burns more fat at rest than an unfit person, so doing cardio while bulking can help keep you lean."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 5 : One of the best ways to know if you are gaining muscle is if you are getting stronger. While it is possible to gain strength without gaining size for the most part if you are gaining strength you will gain size. If you are bulking and not gaining strength or losing strength then something needs to be fixed."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 6 : Remember you grow outside of the gym! Your workouts serve as the stimulus for muscle growth but if you are not getting adequate rest and recovery time between workouts your results will suffer. I recommend weight training 4-5 times per week max."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 7 : We all know the importance of protein for muscle growth, so make sure you are eating 1-1.5 grams of protein per pound of bodyweight every day. If you are having trouble eating enough protein, adding in protein shakes is an easy way to boost your protein intake."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 8 : Just because you are getting enough protein doesn't mean you can overlook your fat and carbohydrate intake. Both fats and carbohydrates are needed to support muscle growth so be sure you aren't skimping on these nutrients."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 9 : While all your meals are important, special attention should be paid to your post-workout meal or shake. To maximize muscle growth and recovery, a post workout shake consisting of whey protein and a fast-acting carbohydrate (like dextrose) is ideal. Adding supplements like creatine monohydrate (5 grams) and glutamine (5-10 grams) to your post-workout shake will further enhance its effectiveness. Simply adding a post-workout shake to your regime will accelerate your results so don't skimp out on it!"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/Rule10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rule 10 : Instead of getting bogged down with every little detail the above 10 rules are what you should focus on; don't lose sight of the big picture. Following my top 10 rules will lead to a successful bulking program and allow you to get that muscular, lean physique you have been working towards."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

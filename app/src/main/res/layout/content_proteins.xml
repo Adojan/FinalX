@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Proteins"
+    android:background="#FC55069E"
+
+    tools:showIn="@layout/app_bar_proteins">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What are proteins?
+Proteins are organic molecules made up of amino acids – the building blocks of life. These amino acids are joined together by chemical bonds and then folded in different ways to create three-dimensional structures that are important to our body’s functioning.
+
+A
+There are two main categories of amino acids in the body. First, we’ve got essential amino acids – those that the body can’t manufacture, and thus we must consume in our diets.
+
+Some amino acids are conditionally essential, which means that our bodies can’t always make as much as we need (for example, when we’re under stress).
+
+Next, kinda obviously, we’ve got nonessential amino acids – those that the body can usually make for itself."
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

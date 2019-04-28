@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Carbs"
+    android:background="#FC55069E"
+
+    tools:showIn="@layout/app_bar_carbs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The basics of how carbohydrates can affect your health and performance. As the Yiddish proverb goes, “If you are bitter in the heart, sugar in the mouth will not help you.” To put it another way, if your blood triglycerides are elevated, you might want to reconsider that cola.
+
+What are carbohydrates?
+Carbohydrates are organic molecules typically classified according to their structure. And, structurally speaking, there are two types of carbohydrates: simple and complex.
+
+Simple carbohydrates are smaller, more easily processed molecules known as mono- and disaccharides since they contain either one sugar molecule or two sugar molecules linked together.
+
+Complex carbohydrates, on the other hand, are called polysaccharides since they have more than two sugar groups linked together.
+
+Monosaccharides are the simplest form of carbohydrate and cannot be broken down any further since they contain only a single sugar group. Oligosaccharides consist of short chains (di-, tri-, etc) of monosaccharide units all put together. And polysaccharides are long chains of monosaccharide units all put together."
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
